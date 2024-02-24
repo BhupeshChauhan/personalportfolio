@@ -30,12 +30,12 @@ const HeroSection = () => {
           loop
           autoPlay
           muted
-          className="absolute bg-black overflow-none z-10 -top-36 left-0 object-cover h-[100%] w-[100%]"
+          className="absolute overflow-none z-10 -top-36 left-0 object-cover h-[100%] w-[100%]"
         >
           <source src="/herobg.mp4" type="video/mp4" />
         </video>
         <div className="absolute bg-gradient-to-b from-black/40 to-black z-10 h-[100vh] w-[100vw] -top-36 left-0"></div>
-      <div className="px-10 bg-black z-10 md:px-24 min-h-[100vh] min-w-[100vw] absolute top-32 md:-top-10 left-0 flex mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12">
+      <div className="px-10 z-10 md:px-24 min-h-[100vh] min-w-[100vw] absolute top-32 md:-top-10 left-0 flex mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12">
         <motion.div initial={{
             y: 100,
           opacity: 0,
